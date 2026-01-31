@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.goweddingplanner.com"
+        }
+      ],
+      "destination": "https://goweddingplanner.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "mostolesweddings.vercel.app"
+        }
+      ],
+      "destination": "https://goweddingplanner.com/$1",
+      "permanent": true
+    }
+  ]
+}
